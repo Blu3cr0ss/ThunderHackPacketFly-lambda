@@ -1,0 +1,11 @@
+{
+    "required": true,
+    "compatibilityLevel": "JAVA_8",
+    "package": "mixins",
+    "refmap": "mixins.ThunderPacketFly.refmap.json",
+    "client": [
+        "MixinEntity",
+        "MixinEntityPlayerSP",
+        "MixinWorld"
+    ]
+}
