@@ -1,4 +1,4 @@
-package mixins;
+package idk.bluecross.tpf.mixins;
 
 import net.minecraft.entity.Entity;
 import net.minecraftforge.common.MinecraftForge;
@@ -6,7 +6,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import util.PushEvent;
+import idk.bluecross.tpf.util.PushEvent;
 
 @Mixin(value = {Entity.class}, priority = 9998)
 public class MixinEntity {

@@ -1,4 +1,4 @@
-package mixins;
+package idk.bluecross.tpf.mixins;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.world.World;
@@ -6,7 +6,7 @@ import net.minecraftforge.common.MinecraftForge;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
-import util.PushEvent;
+import idk.bluecross.tpf.util.PushEvent;
 
 @Mixin(World.class)
 public class MixinWorld {

@@ -4,6 +4,7 @@
 run/
 scripts/jar-shrink/log.txt
 logs/
+lib/
 
 ### Eclipse ###
 .metadata

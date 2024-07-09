@@ -1,11 +1,12 @@
 {
     "required": true,
     "compatibilityLevel": "JAVA_8",
-    "package": "mixins",
+    "package": "idk.bluecross.tpf.mixins",
     "refmap": "mixins.ThunderPacketFly.refmap.json",
     "client": [
         "MixinEntity",
         "MixinEntityPlayerSP",
-        "MixinWorld"
+        "MixinWorld",
+        "MixinTimer"
     ]
 }

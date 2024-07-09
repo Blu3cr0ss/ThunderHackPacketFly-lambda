@@ -1,3 +1,5 @@
+package idk.bluecross.tpf
+
 import com.lambda.client.plugin.api.Plugin
 
 internal object ThunderPacketFLyPlugin : Plugin() {
